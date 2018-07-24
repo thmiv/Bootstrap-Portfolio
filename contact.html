@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
@@ -37,26 +37,50 @@
 </header>
 
 <div id="main-container" class="container">
-  <section class="main-section">
-        <h1>Contact</h1>
-      <form id="contact-form">
-            <ul>
-              <li>
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-              </li>
-              <li>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-              </li>
-              <li>
-                <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Write here!" required="required"></textarea>
-              </li>
-            </ul>
-            <input type="submit">
+    <section class="main-section">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Contact</h1>
+            </div>
+        </div>
+        <form id="contact-form">
+            <div class="row">
+                <div class="col-md-12">
+                    <label for="name">Name</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-auto">
+                    <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <label for="email">Email</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <label for="message">Message</label>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-md-12">
+                        <textarea id="message" name="message" placeholder="Write here!" required="required"></textarea>
+                    </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <input type="submit">
+                </div>
+            </div>
           </form>
-  </section>
+    </section>
 </div>
     
 <footer>
