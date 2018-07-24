@@ -6,36 +6,57 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
+
 <header>
-    <div class="headContent">
-        <div id="name">Thomas Milnes</div>
-        <nav>
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
-        </nav>
-    </div>
-    <div id="lineHead"></div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Thomas Milnes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </header>
-<div class="content">
-    <h1>About Me</h1>
-    <div id="lineBody"></div>
-    <img src="assets/images/200x200.png" alt="Profile Picture" width="200" height="150px">
-    <p>
-        Quisque bibendum, felis ac posuere placerat, tortor risus lobortis risus, eget consequat dolor metus et quam. Nam sodales, nunc sed rhoncus pretium, sem dui porttitor nunc, quis feugiat neque nisl eu est. Pellentesque libero est, sollicitudin eu aliquam eget, ultrices ut urna. Sed ut metus lacus. Quisque vulputate eleifend sem, sed cursus eros. Donec nunc lorem, suscipit non ex quis, convallis luctus augue.
-    </p>
-    <p>
-        Quisque gravida vestibulum scelerisque. Nunc interdum tincidunt metus, quis vestibulum elit pulvinar vitae. Vestibulum at placerat lorem, in sodales tellus. Sed iaculis fermentum arcu efficitur elementum. Phasellus eu scelerisque lorem, et porta turpis.
-    </p>
-    <p>
-        Morbi bibendum iaculis laoreet. Sed fringilla mollis elit, ut lacinia urna consectetur id. Sed ac est bibendum, imperdiet tortor et, pretium felis. Vivamus in dui sed mauris volutpat sodales.
-    </p>
+
+<div class="container" id="main-container">
+    <section class="main-section">
+        <h1>About Me</h1>
+        <img src="assets/images/200x150.png" alt="Profile Picture" width="200" height="150px">
+        <p>
+            Quisque bibendum, felis ac posuere placerat, tortor risus lobortis risus, eget consequat dolor metus et quam. Nam sodales, nunc sed rhoncus pretium, sem dui porttitor nunc, quis feugiat neque nisl eu est. Pellentesque libero est, sollicitudin eu aliquam eget, ultrices ut urna. Sed ut metus lacus. Quisque vulputate eleifend sem, sed cursus eros. Donec nunc lorem, suscipit non ex quis, convallis luctus augue.
+        </p>
+        <p>
+            Quisque gravida vestibulum scelerisque. Nunc interdum tincidunt metus, quis vestibulum elit pulvinar vitae. Vestibulum at placerat lorem, in sodales tellus. Sed iaculis fermentum arcu efficitur elementum. Phasellus eu scelerisque lorem, et porta turpis.
+        </p>
+        <p>>
+            Morbi bibendum iaculis laoreet. Sed fringilla mollis elit, ut lacinia urna consectetur id. Sed ac est bibendum, imperdiet tortor et, pretium felis. Vivamus in dui sed mauris volutpat sodales.
+        </p>
+    </section>
 </div>
+
 <footer>
-    <div id="lineFoot"></div>
-    <h6>Copyright &copy;</h6>
+    <div class="container">Copyright &copy;</div>
 </footer>
+
 </body>
 </html>

@@ -5,34 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 <header>
-    <div class="headContent">
-        <div id="name">Thomas Milnes</div>
-        <nav>
-            <a href="index.html">About</a> <a id="divider">&nbsp; | &nbsp;</a>
-            <a href="portfolio.html">Portfolio</a> <a id="divider">&nbsp; | &nbsp;</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </div>
-    <div id="lineHead"></div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">Thomas Milnes</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
 </header>
-<div class="projectBox">
-    <h1>Portfolio</h1>
-    <div id="lineBody"></div>   
-        <img id="projects" src="assets/images/200x150.png" alt="Project 1">
-        <img id="projects" src="assets/images/200x150.png" alt="Project 2">
-        <img id="projects" src="assets/images/200x150.png" style="visibility:hidden" alt="Project 3">
-        <img id="projects" src="assets/images/200x150.png" alt="Project 4">
-        <img id="projects" src="assets/images/200x150.png" alt="Project 5">
-        <img id="projects" src="assets/images/200x150.png" style="visibility:hidden" alt="Project 6">
-        <img id="projects" src="assets/images/200x150.png" alt="Project 7"> 
+
+<div id="main-container" class="container">
+        <section class="main-section">
+          <h1>Portfolio</h1>
+    
+          <div class="work">
+            <img src="assets/images/200x200.png" alt="Word Guess">
+            
+            <h3>Word Guess</h3>
+          </div>
+          <div class="work">
+            <img src="assets/images/200x200.png" alt="RPG Game">
+    
+            <h3>RPG Game</h3>
+          </div>
+          <div class="work">
+            <img src="assets/images/200x200.png" alt="Trivia Game">
+    
+            <h3>Trivia Game</h3>
+          </div>
+          <div class="work">
+            <img src="assets/images/200x200.png" alt="Rutgers Info Widget">
+    
+            <h3>Rutgers Info Widget</h3>
+          </div>
+          <div class="work">
+            <img src="assets/images/200x200.png" alt="Rock Paper Scissors">
+    
+            <h3>Rock Paper Scissors</h3>
+          </div>
+    
+        </section>
 </div>
 <footer>
-    <div id="lineFoot"></div>
-    <h6>Copyright &copy;</h6>
+    <div class="container">Copyright &copy;</div>
 </footer>
+            
+
 </body>
 </html>
